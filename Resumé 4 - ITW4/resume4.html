@@ -2,56 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      
-       header {
-    margin: 8px;
-    padding: 25px;
-  }
-
-    header {
-     font-family: arial, helvetica, sans-serif;
-     color: C6D8FF;
-     background-color: 310A31;
-     
-    }
-
-    section {
-        background-color: 8ED081;
-
-    }
-    
-    section, article, footer {
-    
-      font-family: arial, helvetica, sans-serif;
-      font-style: italic;
-      color: 636564;
-      margin: 8px;
-      padding: 5rem ;
-    }
-
-    section {
-        margin-left: 12px;
-        margin-right: 12px;
-        margin-top: 6px;
-        margin-bottom: 6px;
-        border-radius: 145px;
-    }
-
-
-    h2, h3 {
-      font-weight:bolder;
-      text-decoration-line: underline;
-      
-    }
-
-    img {
-        border-style: solid;
-        border-color: 17B890;
-        border-radius:  145px 145px 145px 145px;    
-    }
-
-        </style>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
 
   <head>
@@ -60,30 +11,35 @@
   <body>
 
   <header> 
-<aside> 
-    <img src="https://media.licdn.com/dms/image/C4D03AQFhRbh8mlJsVw/profile-displayphoto-shrink_800_800/0/1649003832021?e=1697068800&v=beta&t=LeMc_6paPD2u9M7OGCFQ8xq_PqEXuWwYGNsEo6LzshI" alt="Photo of Tebogo" width="250" height="250">
-</aside>
+    <h1>Tebogo Motloung</h1>
+    <p>An introductory personal statement</p>
 
-<h1>Tebogo Motloung</h1>
-    <p>An introductory personal statement</p> 
+<aside> 
+  <div>
+    <img src="Image/TebogoM.jpg"alt="Photo of Tebogo" width="350" height="350">
+  </div>
+</aside> 
 </header>
 
  <br>
 
- <section> 
+ <section id="MENU"> 
    <p>
+  <div>
     <h2>MENU</h2>
     <ul>
-      <li>  <a href="#education">Education</a></li>
-      <li>  <a href="#experience">Experience</a></li>
-      <li>  <a href="#skills">Skills</a></li> 
-      <li>  <a href="#contact details">Contact Details</a></li>
+      <li>  <a class="nav-link" href="#education">Education</a></li>
+      <li>  <a class="nav-link" href="#experience">Experience</a></li>
+      <li>  <a class="nav-link" href="#skills">Skills</a></li> 
+      <li>  <a class="nav-link" href="#contact details">Contact Details</a></li>
     </ul>
 </section>
+</div>
    </p>  
 
   
 <article> 
+<div>
     <h2 id="education">Education</h2>
     <h3> Qualification 1</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et pharetra pharetra massa massa ultricies mi quis. Sed vulputate mi sit amet mauris commodo quis imperdiet. Sit amet nulla facilisi morbi tempus. Habitant morbi tristique senectus et netus. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. Integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus. Sit amet dictum sit amet justo. Nulla malesuada pellentesque elit eget gravida cum. Lacus suspendisse faucibus interdum posuere. Sit amet aliquam id diam maecenas ultricies mi eget. Convallis aenean et tortor at risus. Urna duis convallis convallis tellus id interdum velit. Viverra nam libero justo laoreet sit amet. Lectus sit amet est placerat. Semper eget duis at tellus at.</p>
@@ -108,13 +64,15 @@
       <li>Problem Solving</li>
     </ol>
   </ul>
+</div>
 </article>
 
 <br>
 
-<footer> 
+<footer id="footer"> 
+
      <h2 id="contact details">Contact Details</h2>
-     <p><a href="https://www.linkedin.com/in/teboho-motloung-27182916b/">LinkedIn</a>
+     <p><a class="nav-link" href="https://www.linkedin.com/in/teboho-motloung-27182916b/">LinkedIn</a>
 </footer>        
 
   </body>

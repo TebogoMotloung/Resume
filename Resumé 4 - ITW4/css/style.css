@@ -1,0 +1,28 @@
+title {
+  font-weight: bold;
+}
+
+header {
+  background-color: 310A31;
+  font-family: arial, helvetica, sans-serif;
+  color: C6D8FF;
+}
+
+section,
+article,
+footer {
+  background-color: 636564;
+  font-family: arial, helvetica, sans-serif;
+  font-style: italic;
+  color: C6D8FF;
+}
+
+h2,
+h3 {
+  font-weight: bolder;
+  text-decoration-line: underline;
+}
+
+.nav-link { 
+  color: white;
+} 
