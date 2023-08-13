@@ -1,0 +1,50 @@
+header {
+    margin: 8px;
+    padding: 25px;
+  }
+
+    header {
+     font-family: arial, helvetica, sans-serif;
+     color: C6D8FF;
+     background-color: 310A31;
+     
+    }
+
+    section {
+        background-color: 8ED081;
+
+    }
+    
+    section, article, footer {
+    
+      font-family: arial, helvetica, sans-serif;
+      font-style: italic;
+      color: 636564;
+      margin: 8px;
+      padding: 5rem ;
+    }
+
+    section {
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        border-radius: 145px;
+    }
+
+
+    h2, h3 {
+      font-weight:bolder;
+      text-decoration-line: underline;
+      
+    }
+
+    img {
+        border-style: solid;
+        border-color: 17B890;
+        border-radius:  155px 155px 155px 155px;  
+    }
+
+    .nav-link { 
+        color: white;
+      } 
