@@ -1,27 +1,28 @@
 header {
-    margin: 8px;
-    padding: 25px;
+    margin: 9px;
+    padding: 35px;
   }
 
     header {
      font-family: arial, helvetica, sans-serif;
-     color: C6D8FF;
+     color:black;
      background-color: 310A31;
-     
+     background-image: url("https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=markus-winkler-7iSEHWsxPLw-unsplash.jpg");
+     background-size: cover;
+    background-repeat: no-repeat;
     }
+      
 
     section {
         background-color: lightslategray;
-
     }
     
     section, article, footer {
-    
       font-family: arial, helvetica, sans-serif;
       font-style: italic;
       color: 636564;
       margin: 8px;
-      padding: 5rem ;
+      padding: 5rem;
     }
 
     section {
@@ -39,12 +40,14 @@ header {
       
     }
 
-    img {
+    img, source {
         border-style: solid;
         border-color: 17B890;
         border-radius:  155px 155px 155px 155px;  
+        width:250px;
+        height:250px;
     }
 
     .nav-link { 
         color: white;
-      } 
+      }
