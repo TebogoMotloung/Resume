@@ -1,0 +1,77 @@
+header {
+    margin: 9px;
+    padding: 35px;
+  }
+
+    header {
+     font-family: arial, helvetica, sans-serif;
+     color:black;
+     background-color: 310A31;
+     background-image: url("https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=markus-winkler-7iSEHWsxPLw-unsplash.jpg");
+     background-size: cover;
+    background-repeat: no-repeat;
+    }
+      
+
+    section {
+        background-color: lightslategray;
+    }
+    
+    section, article {
+      font-family: arial, helvetica, sans-serif;
+      font-style: italic;
+      color: 636564;
+      margin: 8px;
+      padding: 5rem;
+    }
+
+    section {
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        border-radius: 145px;
+    }
+
+
+    h2, h3 {
+      font-weight:bolder;
+      text-decoration-line: underline;
+      
+    }
+
+    img, source {
+        border-style: solid;
+        border-color: 17B890;
+        border-radius:  155px 155px 155px 155px;  
+        width:250px;
+        height:250px;
+    }
+
+    .nav-link { 
+        color: white;
+      }
+
+      @media screen and (max-width:426px) {
+        img, source { width: 85px;
+               height: 85px;
+            }
+
+         body, footer {font-size: 8px;
+         margin: 0;
+         padding: 0;
+        width: 100%;} 
+         
+         background-image { width: 100%;}
+      
+
+      section, article, footer {margin-right: 25px;
+        margin-left: 1rem;
+     padding: 1rem;
+     font-size: 10px;
+     width: 100%;
+     }
+
+ section {border-radius: 75px;
+}
+      }
